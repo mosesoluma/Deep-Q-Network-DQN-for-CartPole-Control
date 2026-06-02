@@ -60,11 +60,17 @@ Optimiser              Adam                 —
 
 
 Project Structure
+
 DQN-CartPole/
-├── dqn_cartpole.py        # Main training script
-├── requirements.txt       # Python dependencies
+
+├── dqn_cartpole.py    
+
+├── requirements.txt  
+
 ├── assets/
+
 │   └── training_curve.png # Training reward plot (add this)
+
 └── README.md
 
 Installation & Reproduction
