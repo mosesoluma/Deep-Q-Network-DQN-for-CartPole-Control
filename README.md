@@ -1,6 +1,6 @@
 Overview
 
-This project implements the Deep Q-Network (DQN) algorithm (Mnih et al., 2015) from scratch and evaluates it on the CartPole-v1 benchmark — 
+This project implements the Deep Q-Network (DQN) algorithm (Mnih et al., 2015) from scratch and evaluates it on the CartPole-v1 benchmark, 
 a foundational control problem widely used in robotics and autonomous systems research to validate policy learning approaches.
 The core investigation focuses on three mechanisms: experience replay, a target network, and a custom reward shaping strategy using a terminal 
 penalty. Together, these produced a stable, converging agent that solves the environment in under 700 episodes.
@@ -9,8 +9,8 @@ The trained agent solves CartPole-v1 (mean reward ≥ 475 over 100 episodes) at 
 Background & Motivation
 Classical Q-learning fails with neural network function approximators due to:
 
-Correlated samples — consecutive transitions are highly correlated, violating the i.i.d. assumption of gradient-based optimisers.
-Non-stationary targets — the Q-target shifts as the same network being updated also computes target values, causing divergence.
+Correlated samples,consecutive transitions are highly correlated, violating the i.i.d. assumption of gradient-based optimisers.
+Non-stationary targets, the Q-target shifts as the same network being updated also computes target values, causing divergence.
 
 DQN addresses both with:
 
