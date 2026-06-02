@@ -1,4 +1,5 @@
 Overview
+
 This project implements the Deep Q-Network (DQN) algorithm (Mnih et al., 2015) from scratch and evaluates it on the CartPole-v1 benchmark — 
 a foundational control problem widely used in robotics and autonomous systems research to validate policy learning approaches.
 The core investigation focuses on three mechanisms: experience replay, a target network, and a custom reward shaping strategy using a terminal 
